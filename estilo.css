@@ -52,7 +52,7 @@ button{
 
 .orientacao{
     font-size: 0.4em;
-    background: url(../imagens/vector.png) no-repeat left center;
+    background: url(vector.png) no-repeat left center;
     padding-left: 20px;
 }
 
@@ -89,7 +89,7 @@ button{
     width: 9em;
     position: relative;
     margin: 20px 0;
-    background-image: url("../imagens/resultado.png");
+    background-image: url("resultado.png");
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 300px;
