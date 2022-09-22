@@ -1,0 +1,110 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background: #F3F5FC;
+}
+
+.logo{
+    display: inline;
+}
+
+.logo img{
+    margin-top: 30px;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.principal{
+    margin-left: 30px;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    font-size: 0.5em;
+    border-radius: 15px;
+}
+
+.input-texto{
+    width: 23.5em;
+    margin: 90px 5px;
+    border: none;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-size: 0.8em;
+    padding-left: 15px;
+}
+
+.input-texto::placeholder{
+    color: #0A3871;
+    text-transform: lowercase;
+    font-size: 0.8em;
+}
+
+.orientacao{
+    font-size: 0.4em;
+    background: url(../imagens/vector.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.codificar{
+    background-color: #0A3871;
+    color: #fff;
+    border: none;
+}
+
+.decodificar{
+    margin-left: 30px;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+.resultado{
+    width: 330px;
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.retorno{
+    width: 9em;
+    position: relative;
+    margin: 20px 0;
+    background-image: url("../imagens/resultado.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-style: none;
+    padding: 10px;
+}
+
+#ctrl-c{
+    position: relative;
+    margin-top: 40px;
+}
+
+.copiar{
+    position: relative;
+    margin: 20px auto;
+    border-color: #0A3871;
+    color: #0A3871;
+}
